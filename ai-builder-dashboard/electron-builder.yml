@@ -1,0 +1,12 @@
+appId: com.aibuilder.dashboard
+productName: AI Builder Dashboard
+files:
+  - app/main/**
+  - app/renderer/dist/**
+  - package.json
+mac:
+  category: public.app-category.productivity
+  target:
+    - dmg
+extraMetadata:
+  main: app/main/main.js
